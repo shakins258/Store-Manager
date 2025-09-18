@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Store Manager Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    header, footer { background-color: #333; color: white; padding: 10px; }
+    nav { margin: 10px 0; }
+    section { margin: 20px 0; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    .btn { padding: 6px 12px; background: green; color: white; border: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Store Manager Dashboard</h1>
+  </header>
+
+  <nav>
+    <a href="#inventory">Inventory</a> |
+    <a href="#orders">Orders</a> |
+    <a href="#employees">Employees</a> |
+    <a href="#reports">Reports</a>
+  </nav>
+
+  <section id="inventory">
+    <h2>Inventory</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Stock</th>
+          <th>Price</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Product A</td>
+          <td>20</td>
+          <td>$15.99</td>
+          <td><button class="btn">Edit</button></td>
+        </tr>
+        <!-- More rows here -->
+      </tbody>
+    </table>
+  </section>
+
+  <section id="orders">
+    <h2>Recent Orders</h2>
+    <ul>
+      <li>Order #001 - Completed</li>
+      <li>Order #002 - Pending</li>
+      <!-- More orders -->
+    </ul>
+  </section>
+
+  <section id="employees">
+    <h2>Employee List</h2>
+    <ol>
+      <li>Jane Doe - Manager</li>
+      <li>John Smith - Cashier</li>
+      <!-- More employees -->
+    </ol>
+  </section>
+
+  <section id="reports">
+    <h2>Sales Report</h2>
+    <p>Today's sales: <strong>$530.00</strong></p>
+    <!-- Chart or stats here -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Store Inc. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
